@@ -1,0 +1,28 @@
+import React from "react";
+import Preloader from "../components/Preloader";
+import Header from "../components/Header";
+import ProfileMenu from "../components/ProfileMenu";
+import ProfileCreate from "../components/ProfileCreate";
+import ProfileContent from "../components/ProfileContent";
+import Footer from "../components/Footer";
+
+function Profile() {
+  return (
+    <div>
+            <Header>
+      </Header>
+            <ProfileMenu>
+      </ProfileMenu>
+            <ProfileCreate>
+      </ProfileCreate>
+            <ProfileContent>
+      </ProfileContent>
+            <Footer>
+      </Footer>
+            <Preloader>
+      </Preloader>
+    </div>
+  );
+}
+
+export default Profile;

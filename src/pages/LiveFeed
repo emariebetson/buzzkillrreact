@@ -1,0 +1,31 @@
+import React from "react";
+import Preloader from "../components/Preloader";
+import Header from "../components/Header";
+import LiveProfile from "../components/LiveProfile";
+import LiveMap from "../components/LiveMap";
+import LiveCreate from "../components/LiveCreate";
+import LiveContent from "../components/LiveContent";
+import Footer from "../components/Footer";
+
+function LiveFeed() {
+  return (
+    <div>
+            <Header>
+      </Header>
+            <LiveProfile>
+      </LiveProfile>
+            <LiveMap>
+      </LiveMap>
+            <LiveCreate>
+      </LiveCreate>
+            <LiveContent>
+      </LiveContent>
+            <Footer>
+      </Footer>
+            <Preloader>
+      </Preloader>
+    </div>
+  );
+}
+
+export default LiveFeed;
